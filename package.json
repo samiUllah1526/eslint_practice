@@ -1,0 +1,22 @@
+{
+  "name": "improved_task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint scr --fix",
+    "prepare": "husky install",
+    "lint": "./node_modules/.bin/eslint",
+    "prettier" :"./node_modules/.bin/prettier scr"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "prettier": "^2.3.1"
+  }
+}
